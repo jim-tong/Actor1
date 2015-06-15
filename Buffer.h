@@ -1,4 +1,6 @@
-#pragma once
+#ifndef _BUFFER_
+#define _BUFFER_
+
 #include <cstdio>
 #include <memory>
 #include <string>
@@ -98,3 +100,4 @@ private:
 	int		m_CurLen;
 	char*	m_pMsg;
 };
+#endif
